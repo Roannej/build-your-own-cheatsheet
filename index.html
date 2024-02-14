@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Reference Cheatsheet</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <h1>HTML Reference Cheatsheet</h1>
+  <h2>HTML Element Reference</h2>
+<!--MAIN ROOT-->
+  <table class="element-ref">
+    <thead class="table-heading">
+      <tr>
+        <td colspan="2">MAIN ROOT</td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr class="row-heading">
+      <td>Element</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;html&gt;</mark></td>
+      <td>Represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</td>
+    </tr>
+    </tbody>
+  </table>
+<br>
+<!--DOC METADATA-->
+  <table class="element-ref">
+    <thead class="table-heading">
+      <tr>
+        <td colspan="2">DOCUMENT METADATA</td>
+      </tr>
+  </thead>
+
+  <tbody>
+    <tr class="row-heading">
+      <td>Element</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;base&gt;</mark></td>
+      <td>Specifies the base URL to use for all relative URLs in a document. There can be only one such element in a document.</td>
+    </tr>
+
+    <tr>
+      <td><mark>&lt;head&gt;</mark></td>
+      <td>Contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;link&gt;</mark></td>
+      <td>Specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;meta&gt;</mark></td>
+      <td>Represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; and &lt;title&gt;.</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;style&gt;</mark></td>
+      <td>Contains style information for a document or part of a document. It contains CSS, which is applied to the contents of the document containing this element.</td>
+    </tr>
+    <tr>
+      <td><mark>&lt;title&gt;</mark></td>
+      <td>Defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</td>
+    </tr>
+  </tbody>
+</table>
+  <br>
+<table class="element-ref">
+    <thead class="table-heading">
+      <tr>
+        <td colspan="2">SECTIONING ROOT</td>
+      </tr>
+    </thead>
+    <tbody>
+    <tr class="row-heading">
+      <td>Element</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+        <td><mark>&lt;body&gt;</mark></td>
+        <td>Represents the content of an HTML document. There can be only one such element in a document.</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table class="element-ref">
+    <thead class="table-heading">
+      <tr>
+        <td colspan="2">CONTENT SECTIONING</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-heading">
+        <td>Element</td>
+        <td>Description</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;address&gt;</mark></td>
+          <td>Indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;article&gt;</mark></td>
+          <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include a forum post, a magazine or newspaper article, a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;aside&gt;</mark></td>
+          <td>Represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;footer&gt;</mark></td>
+          <td>Represents a footer for its nearest ancestor sectioning content or sectioning root element. A &lt;footer&gt; typically contains information about the author of the section, copyright data, or links to related documents.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;header&gt;</mark></td>
+          <td>Represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;,</mark></td>
+          <td>Represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;hgroup&gt;</mark></td>
+          <td>Represents a heading grouped with any secondary content, such as subheadings, an alternative title, or a tagline.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;main&gt;</mark></td>
+          <td>Represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;nav&gt;</mark></td>
+          <td>Represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;section&gt;</mark></td>
+          <td>Represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;search&gt;</mark></td>
+          <td>Represents a part that contains a set of form controls or other content related to performing a search or filtering operation.</td>
+      </tr>
+  </tbody>
+</table>
+<br>
+<table class="element-ref">
+    <thead class="table-heading">
+      <tr>
+        <td colspan="2">TEXT CONTENT</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row-heading">
+        <td>Element</td>
+        <td>Description</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;blockquote&gt;</mark></td>
+          <td>Indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation. A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the &lt;cite&gt; element.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;dd&gt;</mark></td>
+          <td>Provides the description, definition, or value for the preceding term (&lt;dt&gt;) in a description list (&lt;dl&gt;).</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;div&gt;</mark></td>
+          <td>The generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g., styling is directly applied to it, or some kind of layout model like flexbox is applied to its parent element).</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;dl&gt;</mark></td>
+          <td>Represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;dt&gt;</mark></td>
+          <td>Specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element. It is usually followed by a &lt;dd&gt; element; however, multiple &lt;dt&gt; elements in a row indicate several terms that are all defined by the immediate next &lt;dd&gt; element.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;figcaption&gt;</mark></td>
+          <td>Represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;figure&gt;</mark></td>
+          <td>Represents self-contained content, potentially with an optional caption, which is specified using the &lt;figcaption&gt; element. The figure, its caption, and its contents are referenced as a single unit.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;hr&gt;</mark></td>
+          <td>Represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;li&gt;</mark></td>
+          <td>Represents an item in a list. It must be contained in a parent element: an ordered list (&lt;ol&gt;), an unordered list (&lt;ul&gt;), or a menu (&lt;menu&gt;). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</td>
+      </tr>
+
+      <tr>
+          <td><mark>&lt;menu&gt;</mark></td>
+          <td>A semantic alternative to &lt;ul&gt;, but treated by browsers (and exposed through the accessibility tree) as no different than &lt;ul&gt;. It represents an unordered list of items (which are represented by &lt;li&gt; elements).</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;ol&gt;</mark></td>
+          <td>Represents an ordered list of items — typically rendered as a numbered list.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;p&gt;</mark></td>
+          <td>Represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;pre&gt;</mark></td>
+          <td>Represents preformatted text which is to be presented exactly as written in the HTML file. The text is typically rendered using a non-proportional, or monospaced, font. Whitespace inside this element is displayed as written.</td>
+      </tr>
+      <tr>
+          <td><mark>&lt;ul&gt;</mark></td>
+          <td>Represents an unordered list of items, typically rendered as a bulleted list.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
