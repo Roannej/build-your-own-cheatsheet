@@ -1,0 +1,55 @@
+html {
+    background-color: midnightblue;
+  }
+  
+  body {
+    margin: 25px;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .element-ref {
+    background-color: white;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .element-ref td {
+    padding: 2px;
+    border: 2px solid black;
+  }
+  
+  tr:hover {
+    font-weight: bold;
+    }
+  
+  .table-heading {
+    font-weight: bold;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .row-heading {
+    font-weight: bold;
+    background-color: lightgoldenrodyellow;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+  
+  mark {
+    background-color: cornflowerblue;
+    font-weight: bold;
+  }
